@@ -35,6 +35,11 @@ h1, h2
     font-size: 1.2rem;
 }
 
+#portfolio .card-text {
+    color: #000000;
+    min-height: 120px;
+}
+
 /*contact section*/
 #contact {
     background-color: white;
@@ -64,4 +69,13 @@ h1, h2
 
 .black-font {
     color: #000000;
+}
+
+
+/*media queries*/
+@media scren and (min-width: 1200px) {
+    /*fixes all portfolio cards being wrong size on xl screens*/
+    #portfolio .card-text {
+        min-height: auto;
+    }
 }
