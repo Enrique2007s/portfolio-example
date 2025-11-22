@@ -37,7 +37,14 @@ h1, h2
     padding: 50px 0;
 }
 
-
+#hero {
+    background-color: #dbdcde;
+    background-image: url("../portfolio-example/assets/images/hero-img-cv-example.webp");
+    background-size: cover;
+    background-position: 50% 70%;
+    min-height: 500px;
+    padding: 5% 7%;
+}
 
 
 
