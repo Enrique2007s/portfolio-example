@@ -39,6 +39,7 @@ h1, h2
 
 #hero {
     background-color: #dbdcde;
+    /*img does not work for some reason*/
     background-image: url("../portfolio-example/assets/images/hero-img-cv-example.webp");
     background-size: cover;
     background-position: 50% 70%;
